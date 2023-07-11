@@ -1,0 +1,117 @@
+.App{
+  width: 100%;
+  height: 780px;
+  background-color: maroon;
+}
+
+.App-header{
+  margin-left: 215px; 
+  margin-right: 100px; 
+  background-color: whitesmoke; 
+  width: 900px; 
+  height: 780px; 
+  border: 500px;
+}
+
+.App-header img.Logo{
+  float: center;
+  width: 900px;
+  height: 200px;
+}
+
+.App-header nav{
+  text-align: center;
+  background-color: darkblue; 
+  width: 900px; 
+  height: 45px;
+  margin-top: -4px;
+}
+
+.App-header nav a{
+  text-align: center;
+  color: white;
+  font-family: 'Comic Sans MS';
+  justify-content: center;
+}
+
+.App-header nav a:hover{
+  color: darkgoldenrod;
+  font-family: 'Comic Sans MS';
+  justify-content: center;
+}
+
+.RightBlock{
+  float: right;
+  height: 450px;
+  width: 300px;
+  font-family: 'Comic Sans MS';
+}
+Button{
+  background: none;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.LeftBlock{
+  width: 560px;
+  height: 450px;
+  float: left;
+}
+
+.Maroon{
+  width: 560px;
+  height: 10px;
+  background-color: maroon;
+}
+.Blue{
+  background-color: darkblue; 
+  width: 560px; 
+  height: 25px; 
+  color: white;
+  text-align: center;
+  font-family:'Comic Sans MS';
+}
+
+.Golden{
+  width: 560px;
+  height: 10px;
+  background-color: darkgoldenrod; 
+}
+
+.App-header img.VC{
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+
+p.Message{
+  font-family:'Comic Sans MS';
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: justify;
+}
+p.Message mark{
+  background-color: darkgoldenrod;
+}
+
+p.MoveText a{
+  font-size: 15px;
+  color: black;
+  font-family:'Comic Sans MS';
+}
+
+p.MoveText a:hover{
+  font-family:'Comic Sans MS';
+  color: darkgoldenrod;
+  font-weight: bold;
+}
+
+b.Temp{
+  font-size: 20px;
+  color: darkblue;
+  font-family:'Comic Sans MS';
+  border: 4px solid maroon;
+}
